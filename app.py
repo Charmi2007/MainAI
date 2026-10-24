@@ -8,9 +8,9 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-BASE = Path(__file__).resolve().parent.parent
-MODELS_DIR = BASE / "models"
-REPORTS_DIR = BASE / "reports"
+BASE = Path(__file__).resolve().parent
+MODELS_DIR = BASE
+REPORTS_DIR = BASE
 
 st.set_page_config(
     page_title="MaintAI | Predictive Maintenance",
