@@ -1,0 +1,16 @@
+{
+  "project": "MaintAI",
+  "model_name": "Random Forest",
+  "features": [
+    "Type",
+    "Air temperature",
+    "Process temperature",
+    "Rotational speed",
+    "Torque",
+    "Tool wear"
+  ],
+  "target": "Machine failure",
+  "dataset": "UCI AI4I 2020 Predictive Maintenance Dataset",
+  "selection_metric": "Failure F1 score",
+  "random_state": 42
+}

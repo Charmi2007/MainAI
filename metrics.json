@@ -1,0 +1,20 @@
+[
+  {
+    "Model": "Decision Tree",
+    "Accuracy": 0.953,
+    "Precision": 0.40441176470588236,
+    "Recall": 0.8088235294117647,
+    "F1 Score": 0.5392156862745098,
+    "ROC-AUC": 0.8926706552186092,
+    "Average Precision": 0.6524463081259628
+  },
+  {
+    "Model": "Random Forest",
+    "Accuracy": 0.979,
+    "Precision": 0.90625,
+    "Recall": 0.4264705882352941,
+    "F1 Score": 0.58,
+    "ROC-AUC": 0.963596851784192,
+    "Average Precision": 0.7719662143762689
+  }
+]
